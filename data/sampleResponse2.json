@@ -1,1 +1,52 @@
-{"features":[{"geometry":{"coordinates":[-77.1823441,39.1497836],"type":"Point"},"type":"Feature","properties":{"caseRef":"IVANA-CSSURVEY-WORK F-31","lastUpdatedBy":"Alexei","createdBy":"Alexei","createTime":"2017-06-26T05:09:19.069Z","name":"Feedback","caseType":"Ivana_CSSurvey_Work_Feedback","lastUpdateTime":"2017-06-26T05:09:32.364Z"}},{"geometry":{"coordinates":[-77.1823395,39.1497834],"type":"Point"},"type":"Feature","properties":{"caseRef":"IVANA-CSSURVEY-WORK F-32","lastUpdatedBy":"Alexei","createdBy":"Alexei","createTime":"2017-06-26T05:16:44.531Z","name":"Feedback","caseType":"Ivana_CSSurvey_Work_Feedback","lastUpdateTime":"2017-06-26T05:16:52.678Z"}},{"geometry":{"coordinates":[-77.0950933,38.982199699999995],"type":"Point"},"type":"Feature","properties":{"caseRef":"IVANA-CSSURVEY-WORK SR-100","lastUpdatedBy":"Alexei","createdBy":"Alexei","createTime":"2017-06-30T18:47:27.271Z","name":"Service Request","caseType":"Ivana_CSSurvey_Work_ServiceRequest","lastUpdateTime":"2017-06-30T18:48:50.436Z"}},{"geometry":{"coordinates":[-77.0950696,38.982185699999995],"type":"Point"},"type":"Feature","properties":{"caseRef":"IVANA-CSSURVEY-WORK SR-101","lastUpdatedBy":"Alexei","createdBy":"Alexei","createTime":"2017-06-30T18:52:04.961Z","name":"Service Request","caseType":"Ivana_CSSurvey_Work_ServiceRequest","lastUpdateTime":"2017-06-30T18:52:12.752Z"}}],"type":"FeatureCollection"}
+{"features":[
+  {
+    "geometry":{"coordinates":[-77.1823441,39.1497836],"type":"Point"},
+    "type":"Feature",
+    "properties":{
+      "caseRef":"IVANA-CSSURVEY-WORK F-31",
+      "lastUpdatedBy":"Alexei",
+      "createdBy":"Alexei",
+      "createTime":"2017-06-26T05:09:19.069Z",
+      "name":"Feedback",
+      "caseType":"Ivana_CSSurvey_Work_Feedback",
+      "lastUpdateTime":"2017-06-26T05:09:32.364Z"
+      }
+  },{
+    "geometry":{"coordinates":[-77.1823395,39.1497999],"type":"Point"},
+    "type":"Feature",
+    "properties":{
+      "caseRef":"IVANA-CSSURVEY-WORK F-32",
+      "lastUpdatedBy":"Alexei",
+      "createdBy":"Alexei",
+      "createTime":"2017-06-26T05:16:44.531Z",
+      "name":"Feedback",
+      "caseType":"Ivana_CSSurvey_Work_Feedback",
+      "lastUpdateTime":"2017-06-26T05:16:52.678Z"
+    }
+  },{
+    "geometry":{"coordinates":[-77.0950933,38.982199699999995],"type":"Point"},
+    "type":"Feature",
+    "properties":{
+      "caseRef":"IVANA-CSSURVEY-WORK SR-100",
+      "lastUpdatedBy":"Alexei",
+      "createdBy":"Alexei",
+      "createTime":"2017-06-30T18:47:27.271Z",
+      "name":"Service Request",
+      "caseType":"Ivana_CSSurvey_Work_ServiceRequest",
+      "lastUpdateTime":"2017-06-30T18:48:50.436Z"
+    }
+  },{
+    "geometry":{"coordinates":[-77.0950696,38.982185699999995],"type":"Point"},
+    "type":"Feature",
+    "properties":{
+      "caseRef":"IVANA-CSSURVEY-WORK SR-101",
+      "lastUpdatedBy":"Alexei",
+      "createdBy":"Alexei",
+      "createTime":"2017-06-30T18:52:04.961Z",
+      "name":"Service Request",
+      "caseType":"Ivana_CSSurvey_Work_ServiceRequest",
+      "lastUpdateTime":"2017-06-30T18:52:12.752Z"
+    }
+  }
+],
+"type":"FeatureCollection"}
