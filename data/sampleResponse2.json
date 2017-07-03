@@ -12,7 +12,7 @@
       "lastUpdateTime":"2017-06-26T05:09:32.364Z"
       }
   },{
-    "geometry":{"coordinates":[-77.1823395,39.1497999],"type":"Point"},
+    "geometry":{"coordinates":[-77.1823395,39.25],"type":"Point"},
     "type":"Feature",
     "properties":{
       "caseRef":"IVANA-CSSURVEY-WORK F-32",
