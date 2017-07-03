@@ -36,7 +36,7 @@
       "lastUpdateTime":"2017-06-30T18:48:50.436Z"
     }
   },{
-    "geometry":{"coordinates":[-77.0950696,38.982185699999995],"type":"Point"},
+    "geometry":{"coordinates":[-77.2,38.982185699999995],"type":"Point"},
     "type":"Feature",
     "properties":{
       "caseRef":"IVANA-CSSURVEY-WORK SR-101",
