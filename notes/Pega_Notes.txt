@@ -1,0 +1,62 @@
+JSON Response
+============================================
+{'features': [{'properties': {'caseRef': 'IRS-SAMPLEAP-WORK M-88', 'createdBy': 'Alexei Ivanov', 'lastUpdateTime': '2017-07-17T13:26:01.005Z', 'name': 'Missing Refund', 'caseType': 'IRS_SampleAp_Work_MissingRefund', 'createTime': '2017-07-17T13:24:11.512Z', 'lastUpdatedBy': 'Alexei Ivanov'}, 'geometry': {'coordinates': [-77.1823399, 39.1498103], 'type': 'Point'}, 'type': 'Feature'}, {'properties': {'caseRef': 'IRS-SAMPLEAP-WORK R-31', 'createdBy': 'Alexei Ivanov', 'lastUpdateTime': '2017-07-31T13:26:26.570Z', 'name': 'Return Investigation', 'caseType': 'IRS_SampleAp_Work_ReturnInvestigation', 'createTime': '2017-07-17T13:26:15.847Z', 'lastUpdatedBy': 'Alexei Ivanov'}, 'geometry': {'coordinates': [-77.18234319999999, 39.1498083], 'type': 'Point'}, 'type': 'Feature'}], 'type': 'FeatureCollection'}
+
+Case Types
+============================================
+* IRS_SampleAp_Work_MissingRefund
+* IRS_SampleAp_Work_ReturnInvestigation
+
+Background
+============================================
+Pega exposed a REST end point with two sample points for us to use as a data source. Below are the steps to import the data and create basic information products:
+* Imported GeoJSON from the Pega REST End Point with an ArcGIS API script in a Jupyter Notebook to a hosted feature layer
+* Created Views from the hosted feature layer based on the Case Type
+* Shared with 'Everyone'
+* Modified the Pop Ups in a Web Map to show limited attributes in a human readable format
+  * Applied Symbology
+  * Created a Web Map (using a different user) and shared with a Group
+  * Created simple WAB application to showcase basic capabilities.
+
+From our meeting with Pega in June, we identified a minimum set of capabilities given the use cases presented. We could achieve most of them, but will need additional resources to make the code more sustainable and establish an Enterprise environment to support feature service editing in a versioned/archieved environment.
+
+Capabilities
+============================================
+  Consumption/transfer
+    * Import with Jupyter Notebook and Python API
+    * Would need more robust capabilities to handle updates
+      * Pega has not exposed an end point to transfer updates back into Pega
+
+Proximity
+    * Create buffers using the analysis tools in a web map and apps
+
+Feature id/mgmt.
+    * Idenitfy tool in web map and apps
+
+Query/discovery attributes
+    * WAB – Find Existing Locations
+Pattern detection & Buffering
+    * Analysis tools in Web Map - Create Buffers
+    * WAB Analysis tools
+
+Straight line distance
+    * Measure Tools in Web Map, WAB, and other applications
+
+Network/ route distance
+    * Directions tool, routing (distance and time), printable cue sheet with map and turn by turn directions. Ability to add impediments
+
+Geocoding/reverse geocoding
+    * Geocoding from the address bar
+    * Reverse geocoding as part of the directions
+
+Reporting/static map generation
+    * Print map function in web maps and apps
+    * Field Data capture and Offline spatial editing – Enabled in the view settings
+
+Open data & sharing
+    * Published a simple open data site - http://pega-seankmcg.opendata.arcgis.com/
+
+Requiring further investigation and a higher level of effort outside of the scope of the initial POC:
+    * AVL /asset mgmt.
+    * Invoke Pega forms in pop-up (drive data collection)
+    * Versioning & Archiving
